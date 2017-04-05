@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /newsite/
+Disallow: /pdf/
+Disallow: /pdf/letters/
+Disallow: /pdf/pledge-letters/

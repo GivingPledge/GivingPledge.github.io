@@ -1,0 +1,346 @@
+html {overflow-y: scroll; height: 100%;}
+
+* :focus { outline: 0; }
+
+body {background-color: #ecebeb;
+background-image:url(../images/background.jpg);
+background-position: center top;
+background-attachment: fixed;
+margin: 0;
+padding: 0;
+height: 100%;
+font-family: "ff-scala-web", serif;
+font-size: 13px;
+font-style: normal;
+line-height:18px;
+color: #000000;
+	}
+
+#content {
+	background: #ffffff;
+	padding: 0;
+	margin: auto;
+	font-family: "ff-scala-sans-web", sans-serif;
+	font-weight:normal;
+	width: 808px;
+	min-height: 100%;
+}
+
+#footer{
+bottom:0px;
+background: #7e7774;
+padding: 0;
+margin: auto;
+font-family: "ff-scala-sans-web", sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: bold;
+color: #ffffff;
+width: 808px;
+height:34px;
+color:#ffffff;
+letter-spacing:.5px;
+}
+
+A:link, A:visited {font-family: "ff-scala-sans-web", sans-serif; color: #958e8a; text-decoration: none; font-weight:bold; font-style:italic;}
+A:hover {font-family: "ff-scala-sans-web", sans-serif; color: #000000; text-decoration: none; font-weight:bold; font-style:italic;}
+
+.participant {
+text-align:left;
+width:100px;
+height:100px;
+padding:9px;
+margin:6px;
+color:#ffffff;
+font-family: "ff-scala-sans-web", sans-serif;
+float:left;
+font-size: 15px;
+font-style: normal;
+line-height:17px;
+position:relative;
+font-weight:bold;
+	}
+
+.participant:hover {cursor:pointer;}
+
+.photo {
+width:118px;
+height:118px;
+margin:0;
+padding:0;
+top:0;
+left:0;
+position:absolute;
+display:none;
+	}
+
+
+.topnavbox {
+text-align:left;
+padding:0 0 0 10px;
+background-image:url(../images/topnavback.gif);
+background-repeat: no-repeat;
+background-position: top left;
+line-height:13px;
+	}
+
+.topnavbox:hover {cursor:pointer;}
+
+.topnav {font-family: "ff-scala-sans-web", sans-serif; 
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+line-height:13px;
+color: #000000;
+	}
+
+a.topnav:link {font-family: "ff-scala-sans-web", sans-serif; color: #958e8a; text-decoration: none; font-style: normal; font-weight: normal;}
+a.topnav:visited {font-family: "ff-scala-sans-web", sans-serif; color: #958e8a; text-decoration: none; font-style: normal; font-weight: normal;}
+a.topnav:hover {font-family: "ff-scala-sans-web", sans-serif; color: #000000; text-decoration: none; font-style: normal; font-weight: bold;}
+
+.faqlink {font-family: "ff-scala-sans-web", serif; 
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+line-height:13px;
+color: #958e8b;
+	}
+
+a.faqlink:link {font-family: "ff-scala-sans-web", sans-serif; color: #958e8b; text-decoration: none; font-style: normal; font-weight: bold;}
+a.faqlink:visited {font-family: "ff-scala-sans-web", sans-serif; color: #958e8b; text-decoration: none; font-style: normal; font-weight: bold;}
+a.faqlink:hover {font-family: "ff-scala-sans-web", sans-serif; color: #645f5d; text-decoration: none; font-style: normal; font-weight: bold;}
+
+.downloadlink {font-family: "ff-scala-sans-web", serif; 
+font-size: 13px;
+font-style: normal;
+font-weight: normal;
+line-height:12px;
+color: #958e8b;
+	}
+
+a.downloadlink:link {font-family: "ff-scala-sans-web", sans-serif; color: #958e8b; text-decoration: none; font-style: normal; font-weight: bold;}
+a.downloadlink:visited {font-family: "ff-scala-sans-web", sans-serif; color: #958e8b; text-decoration: none; font-style: normal; font-weight: bold;}
+a.downloadlink:hover {font-family: "ff-scala-sans-web", sans-serif; color: #000000; text-decoration: none; font-style: normal; font-weight: bold;}
+
+.answer {font-family: "ff-scala-web", serif;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+line-height:32px;
+color: #000000;
+	}
+
+a.answer:link {font-family: "ff-scala-web", serif; color: #958e8a; text-decoration: none; font-style: normal; font-weight: normal;}
+a.answer:visited {font-family: "ff-scala-web", serif; color: #958e8a; text-decoration: none; font-style: normal; font-weight: normal;}
+a.answer:hover {font-family: "ff-scala-web", serif; color: #000000; text-decoration: none; font-style: normal; font-weight: normal;}
+
+.hometext {font-family: "ff-scala-web", serif;
+font-size: 35px;
+font-style: normal;
+font-weight: normal;
+line-height:44px;
+color: #66615e;
+}
+
+a.hometext:link {font-family: "ff-scala-web", serif; color: #958e8a; text-decoration: none; font-style: normal; font-weight: normal;}
+a.hometext:visited {font-family: "ff-scala-web", serif; color: #958e8a; text-decoration: none; font-style: normal; font-weight: normal;}
+a.hometext:hover {font-family: "ff-scala-web", serif; color: #000000; text-decoration: none; font-style: normal; font-weight: normal;}
+
+.quote {font-family: "ff-scala-web", serif;
+font-size: 23px;
+font-style: normal;
+font-weight: normal;
+line-height:32px;
+letter-spacing:.33px;
+color: #000000;
+	}
+	
+.lettertext{font-size:15px;
+line-height:20px;
+font-family: 'ff-scala-web', serif;
+font-style: normal;
+font-weight: normal;
+color: #000000;
+	}
+	
+.letterfooter{font-size:12px;
+line-height:14px;
+font-family: 'ff-scala-web', serif;
+font-style: normal;
+font-weight: normal;
+color: #000000;
+	}
+
+a.letterfooter:link {font-family: "ff-scala-web", serif; color: #fb9033; text-decoration: none; font-style: normal; font-weight: normal;}
+a.letterfooter:visited {font-family: "ff-scala-web", serif; color: #fb9033; text-decoration: none; font-style: normal; font-weight: normal;}
+a.letterfooter:hover {font-family: "ff-scala-web", serif; color: #000000; text-decoration: none; font-style: normal; font-weight: normal;}
+
+.contact_field{
+background-color:#f5f2f0;
+border:1px solid #e6e3e1;
+width:370px;
+height:25px;
+font-family: "ff-scala-sans-web", sans-serif;
+font-size: 12px;
+font-style: normal;
+line-height:16px;
+color: #000000;
+margin-top:2px;
+padding-left:6px;
+}
+
+.mediadate {font-family: "ff-scala-web", serif;
+font-size: 28px;
+font-style: normal;
+font-weight: normal;
+line-height:36px;
+color: #000000;
+	}
+
+a.mediadate:link {font-family: "ff-scala-web", serif; color: #958e8a; text-decoration: none; font-style: normal; font-weight: normal;}
+a.mediadate:visited {font-family: "ff-scala-web", serif; color: #958e8a; text-decoration: none; font-style: normal; font-weight: normal;}
+a.mediadate:hover {font-family: "ff-scala-web", serif; color: #000000; text-decoration: none; font-style: normal; font-weight: normal;}
+
+.mediadesc {font-family: "ff-scala-web", serif;
+font-size: 18px;
+font-style: italic;
+font-weight: normal;
+line-height:22px;
+color: #000000;
+	}
+
+a.mediadesc:link {font-family: "ff-scala-web", serif; color: #958e8a; text-decoration: none; font-style: italic; font-weight: normal; line-height:22px;}
+a.mediadesc:visited {font-family: "ff-scala-web", serif; color: #958e8a; text-decoration: none; font-style: italic; font-weight: normal; line-height:22px;}
+a.mediadesc:hover {font-family: "ff-scala-web", serif; color: #000000; text-decoration: none; font-style: italic; font-weight: normal; line-height:22px;}
+
+.contact_label {font-family: "ff-scala-sans-web-pro", sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+line-height:30px;
+letter-spacing:.5px;
+text-transform:uppercase;
+margin-top:23px;
+margin-bottom:14px;
+color: #000000;
+	}
+
+.subhead {font-family: "ff-scala-sans-web-pro", sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+line-height:12px;
+letter-spacing:.5px;
+text-transform:uppercase;
+margin-top:16px;
+margin-bottom:14px;
+color: #000000;
+	}
+
+.faqsubhead {font-family: "ff-scala-sans-web-pro", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+line-height:14px;
+letter-spacing:.5px;
+text-transform:uppercase;
+margin-top:16px;
+margin-bottom:14px;
+color: #000000;
+	}
+
+.pledgersubhead {font-family: "ff-scala-sans-web-pro", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+line-height:14px;
+letter-spacing:.5px;
+text-transform:uppercase;
+margin-top:8px;
+margin-bottom:14px;
+color: #000000;
+	}
+
+.sidenav {font-family: "ff-scala-sans-web-pro", sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+line-height:12px;
+letter-spacing:1px;
+color: #000000;
+	}
+
+a.sidenav:link {font-family: "ff-scala-sans-web-pro", sans-serif; color: #a8a19b; text-decoration: none; font-style: normal; font-weight: normal;}
+a.sidenav:visited {font-family: "ff-scala-sans-web-pro", sans-serif; color: #a8a19b; text-decoration: none; font-style: normal; font-weight: normal;}
+a.sidenav:hover {font-family: "ff-scala-sans-web-pro", sans-serif; color: #000000; text-decoration: none; font-style: normal; font-weight: normal;}
+
+.popupnav {font-family: "ff-scala-sans-web", sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: bold;
+line-height:12px;
+text-transform:uppercase;
+color: #a29a95;
+margin-top:9px;
+	}
+
+.popupnav:hover {cursor:pointer;}
+
+a.popupnav:link {font-family: "ff-scala-sans-web", sans-serif; color: #a29a95; text-decoration: none; font-style: normal; font-weight: bold;}
+a.popupnav:visited {font-family: "ff-scala-sans-web", sans-serif; color: #a29a95; text-decoration: none; font-style: normal; font-weight: bold;}
+a.popupnav:hover {font-family: "ff-scala-sans-web", sans-serif; color: #000000; text-decoration: none; font-style: normal; font-weight: bold;}
+
+
+h1 {font-family:"ff-scala-web", serif;
+font-size: 36px;
+font-style: normal;
+font-weight: normal;
+line-height: 36px;
+margin-bottom:32px;
+color: #000000;
+	}
+	
+
+.footer {font-family: "ff-scala-sans-web", sans-serif;
+text-transform:uppercase;
+font-size: 10px;
+font-style: normal;
+font-weight: bold;
+color: #ffffff;
+	}
+
+a.footer:link {color: #ffffff; text-decoration: none; font-style: normal;}
+a.footer:visited {color: #ffffff; text-decoration: none; font-style: normal;}
+a.footer:hover {color: #ffffff; text-decoration: underline; font-style: normal;}
+
+.errorWrapper {
+    padding:20px;
+}
+
+.errortext {
+width:auto;
+font-family: "ff-scala-web", serif;
+font-size: 35px;
+font-style: normal;
+font-weight: normal;
+line-height:44px;
+color: #66615e;
+margin-top: 20px;
+padding: 20px 0;
+border-top: solid 12px #000000;
+}
+
+.errortext h3 {
+width:auto;
+font-family: "ff-scala-web", serif;
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+line-height:24px;
+color: #66615e;
+padding: 5px 0 0 0;
+}
+
+.errortext h3 a:hover {
+    text-decoration:underline;
+}
