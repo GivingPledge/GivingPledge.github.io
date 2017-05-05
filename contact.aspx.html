@@ -36,7 +36,10 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
 
 <!-- begin top nav -->
 
-<table border=0 cellpadding=0 cellspacing=0 style="margin-bottom:84px;" height=66><tr height=66><td align="left" valign="top"><a href="index.html"><img border=0 width=66 height=66 src="images/Giving&#32;Pledge&#32;Logo.jpg" alt="The Giving Pledge" style="margin-right:246px;"></a></td><td class="topnavbox" valign="top" onClick="self.location='index.html';" width=153><a href="index.html" class="topnav">Pledger<br>Profiles</a></td><td class="topnavbox" valign="top" onClick="self.location='faq.aspx';" width=154><a href="faq.aspx.html" class="topnav">FAQ</a></td><td class="topnavbox" valign="top" onClick="self.location='contact.aspx';" width=160><a href="contact.aspx.html" class="topnav">Contact</font></td></tr></table>
+<table border=0 cellpadding=0 cellspacing=0 style="margin-bottom:84px;" height=66><tr height=66><td align="left" valign="top"><a href="index.html"><img border=0 width=66 height=66 src="images/Giving&#32;Pledge&#32;Logo.jpg" alt="The Giving Pledge" style="margin-right:246px;" /></a></td>
+<td class="topnavbox" valign="top" onclick="self.location='index.html';" width=153><a href="index.html" class="topnav">Home<br>  </a></td>
+<td class="topnavbox" valign="top" onclick="self.location='faq.aspx.html';" width=154><a href="faq.aspx.html" class="topnav">FAQ</a></td>
+<td class="topnavbox" valign="top" onclick="self.location='contact.aspx.html';" width=160><a href="contact.aspx.html" class="topnav">Contact</a></td></tr></table>
 
 <!-- end top nav -->
 
@@ -44,16 +47,17 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
 
 <h1>Contact Us</h1>
 
-<p>For inquiries, please email <a href="mailto:jake@givingpledge.io">jake@givingpledge.io</a></p>
+<p>For inquiries, please email <a href="mailto:givingpledgeio@gmail.com">givingpledgeio@gmail.com</a></p>
 
 <table border=0 cellpadding=0 cellspacing=0 style="border-top:solid 12px #000000; width:768px; height:650px;"><tr><td valign="top" width=234 align="left" style="padding:12px 0 0 0;">
 
-<form method="post" action="https://givingpledge.org/givingpledge.asp" id="contact_form">
-<input name="_recipients" type="hidden" value="info@givingpledge.org" />
+<form method="post" action="http://formspree.io/givingpledgeio@gmail.com" id="contact_form">
+<!-- <input name="_recipients" type="hidden" value="info@givingpledge.org" />
 <input name="_subject" type="hidden" value="The Giving Pledge" />
 <input name="_replyToField" type="hidden" value="Email" />
 <input name="_redirectUrl" type="hidden" value="thankyou.aspx" />
-<input name="_ccToField" type="hidden" value="Email" />
+<input name="_ccToField" type="hidden" value="Email" /> -->
+<input type="text" name="_gotcha" style="display:none" />
 
 <table cellpadding="0" cellspacing=0 border=0>
 
@@ -61,26 +65,7 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
 
 <tr>
 <td align="left" style="padding:0 10px 0 0;"><font class="contact_label">NAME</font><br><input class="contact_field" id="Name" name="Name" type="text" value="" /></td>
-<td align="left"><font class="contact_label">ORGANIZATION</font><br><input class="contact_field" id="Organization" name="Organization" type="text" value="" /></td>
-</tr>
-
-<tr><td style="padding:14px 13px 0 0;"><div style="height:14px; background-image:url(images/hr-dots.gif); background-repeat:repeat-x; background-position: left center;"></div></td><td style="padding:14px 11px 0 0;"><div style="height:14px; background-image:url(images/hr-dots.gif); background-repeat:repeat-x; background-position: left center;"></div></td></tr>
-
-<tr>
-<td align="left" style="padding:0 10px 0 0;"><font class="contact_label">EMAIL ADDRESS</font><br><input class="contact_field" id="Email" name="Email" type="text" value="" /></td>
-<td align="left"><font class="contact_label">PHONE</font><br><input class="contact_field" id="Phone" name="Phone" type="text" value="" /></td>
-</tr>
-
-<tr><td style="padding:14px 13px 0 0;"><div style="height:14px; background-image:url(images/hr-dots.gif); background-repeat:repeat-x; background-position: left center;"></div></td><td style="padding:14px 11px 0 0;"><div style="height:14px; background-image:url(images/hr-dots.gif); background-repeat:repeat-x; background-position: left center;"></div></td></tr>
-
-<tr>
-<td align="left" style="padding:0 10px 0 0;"><font class="contact_label">MAILING ADDRESS</font><br><input class="contact_field" id="Address" name="Address" type="text" value="" /></td>
-<td align="left" style="padding:0 10px 0 0;"><font class="contact_label">REASON FOR CONTACTING</font><br><select id="Reason" name="Reason" class="contact_field" style="width:376px; height:29px; padding-top:7px; font-family:'ff-scala-sans-web', sans-serif;">
-<option>Interested in Pledging</option>
-<option>Media</option>
-<option>Other</option>
-</select>
-</td>
+<td align="left" style="padding:0 10px 0 0;"><font class="contact_label">EMAIL ADDRESS</font><br><input class="contact_field" id="Email" name="_replyto" type="email" value="" /></td>
 </tr>
 
 <tr><td colspan=2 style="padding:14px 13px 0 0;"><div style="height:22px; background-image:url(images/hr-dots.gif); background-repeat:repeat-x; background-position: center;"></div></td></tr>
@@ -88,7 +73,7 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
 <tr>
 <td align="left" style="padding:0 10px 0 0;" colspan=2><font class="contact_label">MESSAGE</font>
 
-<textarea class="contact_field" style="width:756px; height:220px;" id="Message" name="Message">
+<textarea class="contact_field" style="width:756px; height:220px;" id="Message" name="body">
 </textarea>
 </td>
 </tr>

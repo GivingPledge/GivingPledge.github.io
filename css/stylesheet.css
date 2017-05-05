@@ -27,6 +27,7 @@ color: #000000;
 }
 
 #footer{
+display:none;
 bottom:0px;
 background: #7e7774;
 padding: 0;
