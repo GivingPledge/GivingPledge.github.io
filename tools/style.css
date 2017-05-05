@@ -49,7 +49,7 @@ text-align: center;
 
 
 .wrapper{
-	background: #000000 center top;
+	background: linear-gradient(-90deg, red, blue);
     text-align: center;
     vertical-align: middle;
     position: relative;
