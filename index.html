@@ -1,35 +1,54 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<style type="text/css">
-    body, html {
-        height: 100%;
-        margin: 0;
-    }
-    .wrapper {
-        background: linear-gradient( 45deg, #000046, #1CB5E0 );
-        height: 100%;
-        margin: 0;
-        /*overflow: hidden;*/
-    }
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Coming Soon</title>
+<link href="tools/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="tools/font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="tools/jquery.min.js"></script> 
+<link href='https://fonts.googleapis.com/css?family=Merriweather:700,400|Lato' rel='stylesheet' type='text/css'>
+<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
 
-</style>
+
 </head>
 <body>
-<!-- color: #a7e09f (light green) Lato font-->
-<div class="wrapper">
-    <form action="http://formspree.io/givingpledgeio@gmail.com" method="POST">
-        <input type="text" name="_gotcha" style="display:none" />
-        Email:<br />
-        <input type="email" name="_replyto" id="contact-email" /><br />
-        Message:<br />
-        <textarea name="body" id="contact-text"></textarea><br />
-        <input type="submit" value="Send" />
-    </form>
+<div class="wrapper"><!--wrapper started-->
+    <div class="abovebanner"><!-- above banner started -->
+            <div class="header"><!-- header started-->
+                <h1 id="logo">givingpledge<span>.io</span></h1>
 
+            </div><!-- header ended-->
+                        
+            <div class="content"><!-- content started-->
+                    <p>Coming Soon</p>
+                    
+                    <!--<div class="form">
+                        <div class="mainform">
+                            <div class="field"><input type="text" id="test" value="enter your email address"/></div>
+                            <div class="submit"><input type="button" value="subscribe here" /></div>                        
+                        </div>
+                    </div> -->
+                    <!-- form ended -->
+            
+            </div><!-- content ended -->
 
 </div>
+    
+    
+        <script type="text/javascript">
+var placeholder = $("#test").val();
 
+$("#test").keydown(function() {
+    if (this.value == placeholder) {
+        this.value = '';
+    }
+}).blur(function() {
+    if (this.value == '') {
+        this.value = placeholder;
+    }
+});
+</script>
 
 </body>
 </html>
